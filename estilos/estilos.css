@@ -1,0 +1,313 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #191c32;
+  color: white;
+}
+
+span {
+  color: aqua;
+}
+
+.entry-title {
+  display: none;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  padding: 2em;
+}
+
+
+.logo span {
+  color: aqua;
+}
+
+.logo {
+  margin-top: -7px;
+}
+
+
+.header {
+  background-color: #191c32;
+  width: 100%;
+  height: 100%;
+  color: white;
+}
+
+.menu {
+  display: flex;
+  justify-content: space-around;
+  width: 500px;
+  font-family: 'Kanit', sans-serif
+}
+
+.menu li {
+  list-style: none;
+}
+
+
+.menu a {
+  color: white;
+  text-decoration: none;
+  padding: 10px 20px;
+}
+
+.menu .home {
+  color: aqua;
+}
+
+.menu a:hover {
+  background-color: aqua;
+  color: #191c32;
+  transition: ease-in 0.4s;
+}
+
+.main {
+  color: white;
+  margin: 0 auto;
+  width: 80%;
+  height: 80%;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  align-items: center;
+}
+
+.main p {
+  font-size: 21px;
+  font-family: 'Righteous', cursive;
+}
+
+.main h2 {
+  font-size: 32px;
+  font-family: 'Russo One', sans-serif;
+}
+
+.main h3 {
+  font-size: 30px;
+  font-family: 'Russo One', sans-serif;
+}
+
+.main img {
+  width: 50%;
+  border: 7px solid aqua;
+}
+
+
+.about {
+  color: white;
+  background-color: black;
+  display: grid;
+  grid-template-columns: repeat(10, 1 fr);
+  width: 700x;
+  align-items: center;
+}
+
+.about img {
+  width: 100%;
+  grid-column: 1/5;
+}
+
+.about-inf {
+  grid-column: 5/10;
+  padding: 3em;
+}
+
+.about-inf h2 {
+  font-size: 2em;
+  font-family: 'Russo One', sans-serif;
+}
+
+.about p {
+  font-size: 18px;
+  font-family: 'Righteous', cursive;
+}
+
+
+.divid {
+  height: 4px;
+  width: 60px;
+  background-color: aqua;
+  margin-top: 5px;
+  margin-bottom: 2em;
+}
+
+
+.port {
+  width: 100%;
+  padding: 5em;
+}
+
+
+.port h2 {
+  font-size: 2.5em;
+  font-family: 'Russo One', sans-serif;
+}
+
+.portfolio {
+  width: 100%;
+  color: white;
+  background-color: #191c32
+}
+
+.portfolio .container {
+  width: 50%;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.card p {
+  font-size: 20px;
+  font-family: 'Righteous', cursive;
+}
+
+.card {
+  color: white;
+  width: 300px;
+  height: 270px;
+  background-color: rgba(0, 255, 255, 0.199);
+  margin: 1em;
+}
+
+
+img {
+  width: 37%;
+}
+
+
+.card__title {
+  font-size: 21px;
+  padding: 20px;
+  font-family: 'Russo One', sans-serif;
+}
+
+.conteiner {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+
+.contact-hed h2 {
+  font-size: 37px;
+  font-family: 'Russo One', sans-serif;
+}
+
+.container-contact {
+  display: flex;
+  padding: 3em;
+  margin: 0 auto;
+  margin-left: 7em;
+}
+
+.contact-form2 {
+  margin-left: 7em;
+  margin-top: 2em;
+}
+
+.contact-form2 h2 {
+  font-family: 'Russo One', sans-serif;
+}
+
+.container-contact img {
+  width: 500px;
+  bottom: 0px;
+}
+
+.form {
+  display: block;
+  flex-direction: column;
+  width: 30%;
+  margin-top: 2em;
+  margin-left: 7em;
+  color: white;
+}
+
+.form input {
+  padding: 10px 30px;
+  margin-bottom: 1em;
+  background: none;
+  border: none;
+  border-bottom: 1px solid white;
+  color: white;
+}
+
+
+.form textarea {
+  height: 130px;
+  background: none;
+  color: white;
+  padding: 2em 4em;
+  border: 1px solid white;
+}
+
+.form select {
+  height: 50px;
+  background: none;
+  color: white;
+  padding: 1em 5.1em;
+  border: 1px solid white;
+}
+
+
+.btn-submit {
+  color: black;
+  padding: 10px 60px;
+  margin: 1em 3em;
+  border: none;
+  text-transform: uppercase;
+  background-color: aqua;
+  border-radius: 20px;
+  cursor: pointer;
+  box-shadow: 1px 3px 11px -5px rgba(102, 231, 200, 0.69);
+}
+
+.btn-submit:hover {
+  background-color: white;
+  box-shadow: none;
+}
+
+
+.footer {
+  color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 200px;
+  background-color: aqua;
+}
+
+.footer-content ul {
+  display: flex;
+}
+
+.footer-content li {
+  list-style: none;
+}
+
+.footer-content a {
+  text-decoration: none;
+  padding: 10px 20px;
+  font-family: 'Kanit', sans-serif;
+  color: black;
+}
+
+.footer-content h2 {
+  font-size: 30px;
+  text-align: center;
+  padding-bottom: 0.5em;
+}
+
+.footer-content h3 {
+  font-size: 20px;
+  text-align: center;
+  padding-bottom: 1em;
+}
